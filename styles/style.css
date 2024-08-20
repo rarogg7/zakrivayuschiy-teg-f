@@ -528,7 +528,7 @@ dialog .dialog__title {
 
 #floppy {
   mix-blend-mode: difference;
-  color: var(--main-color, rgba(0, 0, 0, 1));
+  color: var(--button-text-color, rgba(255, 255, 255, 1));
 }
 
 @media (width <= 375px) {

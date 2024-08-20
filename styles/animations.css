@@ -12,3 +12,39 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+@keyframes move {
+  from {
+    scale: 1;
+  }
+  60% {
+    scale: 1.5;
+  }
+  to {
+    scale: 1;
+  }
+}
+
+@keyframes upSparks {
+  from {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  70% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes animationArrow {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: 4px;
+  }
+}

@@ -122,15 +122,6 @@
   }
 }
 
-@keyframes animationArrow {
-  0% {
-    right: 0;
-  }
-  100% {
-    right: 4px;
-  }
-}
-
 .theme-menu__button:hover {
   opacity: 0.6;
   transition: 0.3s ease;
@@ -377,33 +368,6 @@
   }
 }
 
-@keyframes move {
-  from {
-    scale: 1;
-  }
-  60% {
-    scale: 1.5;
-  }
-  to {
-    scale: 1;
-  }
-}
-
-@keyframes upSparks {
-  from {
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  70% {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-
 /* Заголовок поста */
 
 .title__card {
@@ -558,6 +522,8 @@ dialog .dialog__title {
     flex-direction: column;
     padding: 20px;
     gap: 8px;
+    padding-block: 0.9rem;
+    padding-inline: 1.2rem;
   }
 
   .icon__button-floppy {
@@ -591,10 +557,5 @@ dialog .dialog__title {
 
   .content {
     margin-block-end: 3.1rem;
-  }
-
-  .button__save-memory {
-    padding-block: 0.9rem;
-    padding-inline: 1.2rem;
   }
 }

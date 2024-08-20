@@ -1,1 +1,17 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font: "Inter-Flex-Variable";
+    --accent-font: "PressStart2P";
+    --main-color: rgba(0, 0, 0, 1);
+    --button-text-color: rgba(255, 255, 255, 1);
+    --background-color: rgba(255, 255, 255, 1);
+    --background-image: url(../images/background-light.png);
+    --line-heart: rgba(0, 0, 0, 1); /* Черный цвет у иконки Like */
+    --like-heart: rgba(255, 0, 0, 1); /* Красный цвет у иконки Like */
+    --label-position-right: clamp(0.722rem, 0.487rem + 1.127vw, 1.389rem);
+    --label-position-top: 25px;
+    --bg-color-horizontal: rgb(211 211 211);
+    --bg-color-vertical: rgb(231 231 231);
+    --bg-gradient-bottom: rgb(26 26 26);
+    --bg-gradient-top: rgb(231 231 231);
+}

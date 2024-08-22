@@ -1,8 +1,11 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
 :root {
-    --main-font: "Inter-Flex-Variable";
+    --main-font: "Inter";
     --accent-font: "PressStart2P";
     --main-color: rgba(0, 0, 0, 1);
+    --main-font-wght: "wght" 400;
+    --font-wght-title-card: "wght" 700;
     --button-text-color: rgba(255, 255, 255, 1);
     --background-color: rgba(255, 255, 255, 1);
     --background-image: url(../images/background-light.png);
